@@ -1,0 +1,94 @@
+
+
+body{
+    margin: 0;
+    background-image: url(background_image.jpg); 
+    color: white;
+}
+
+.orta{
+    /* text-align: center; */
+    margin: 35px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.24);
+}
+
+.form{
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 30%;
+    margin-left: 32%;
+    padding-left: 50px;
+
+}
+
+textarea{
+    width: 85%;
+    height: 60px ;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bowlby One SC", cursive;
+    padding-top: 10px;
+    margin-bottom: -10px;
+    letter-spacing: 5px;
+
+}
+
+h1 span{
+    color: red;
+}
+
+h3{
+    color: white;
+    font-size: 27px;
+    font-family: "Sorts Mill Goudy", sans-serif;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 6px;
+}
+
+select{
+    margin-top: 16px;
+    height: 36px;
+    width: 85%;
+    border: none;
+    padding: 10px;
+}
+
+
+
+#name{
+    width: 85%;
+    height: 50px;
+
+}
+
+#age{
+    width: 85%;
+    height: 50px;
+
+}
+#mail{
+    width: 85%;
+    height: 50px;
+
+}
+.form label{
+    text-align: left;
+}
+
+#button{
+    background-color: red; 
+    border-radius: 20px;
+    border-width: 1px;
+    width: 40%;
+    height: 10%px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 110px;
+    color: white;
+    font-size: 22px;
+    
+}
