@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(243, 165, 178);
+}
+.firstdiv{
+    float: left;
+}
+.box{
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin: 5px;
+    background-color: rgb(46, 46, 46);
+}
+
+.sag{
+    height: 4rem;
+    width: 4rem;
+    float: right;
+    margin: 5px;
+    background-color: rgb(46, 46, 46);
+}
+.no1{
+    /* background-color: yellow; */
+    
+}
+
+.no2 {
+    /* background-color: rgb(255, 30, 0); */
+
+}
+.no3 {
+    /* background-color: rgb(21, 255, 0); */
+
+}
+.no4 {
+    /* background-color: rgb(0, 255, 85); */
+    clear: left;
+
+}
+.no5 {
+    /* background-color: rgb(0, 162, 255); */
+    clear: left;
+
+}
+.no6 {
+    /* background-color: rgb(47, 0, 255); */
+
+}
+.no7 {
+    /* background-color: rgb(65, 65, 52); */
+    clear: left;
+
+}
+.no8 {
+    /* background-color: rgb(58, 58, 20); */
+    clear: left;
+
+}
+
+
+.n1 {
+    /* background-color: yellow; */
+
+}
+
+.n2 {
+    /* background-color: rgb(255, 30, 0); */
+
+}
+
+.n3 {
+    /* background-color: rgb(21, 255, 0); */
+
+}
+
+.n4 {
+    /* background-color: rgb(0, 255, 85); */
+    clear: right;
+   
+
+}
+
+.n5 {
+    /* background-color: rgb(0, 162, 255); */
+    clear: right;
+
+}
+
+.n6 {
+    /* background-color: rgb(47, 0, 255); */
+    clear: right;
+
+}
+
+.n7 {
+    /* background-color: rgb(65, 65, 52); */
+    clear: right;
+    
+
+}
+
+.n8 {
+    /* background-color: rgb(58, 58, 20); */
+    
+
+}
+
+.n9 {
+    /* background-color: rgb(0, 0, 0); */
+    
+
+}
+
+
+
+
