@@ -14,7 +14,7 @@ span{
     border-width: 1px; 
     width: 100px;
     padding-left: 20px;
-    /* display: none; */
+    display: none;
 }
 
 .hidden_menu:hover .list{
