@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="survey_form.css" />
+  </head>
+  <body>
+    <h1>Clarusway Survey Form</h1>
+    <p class="topp">Thank you for taking the time to helo us improve the platform</p>
+
+    <label for="name">Name</label> <br /> <br>
+    <input type="text" name="name" id="name" placeholder="Enter your name" />
+    <br />
+    <label for="surname">Surname</label> <br /> <br>
+    <input
+      type="text"
+      name="surname"
+      id="surname"
+      placeholder="Enter your surname"
+    />
+    <br />
+    <label for="mail">Email</label><br /> <br>
+    <input
+      type="email"
+      name="mail"
+      id="mail"
+      placeholder="user@clarusway.com"
+    />
+    <p class="firstp" >Which option best describes your current role?</p>
+    <select name="role" id="role">
+      <option value="role1">Select current role</option>
+      <option value="role2">Data</option>
+    </select>
+    <br />
+    <p>Would you recommend Clarusway to a friend?</p>
+    <input id="yes" type="radio" value="radio1" name="definetely,yes" checked />
+    <label for="yes">Definitely, Yes</label>
+    <br /> <br>
+    <input id="maybe" type="radio" value="radio2" name="maybe" />
+    <label for="maybe">Maybe</label>
+    <br /> <br>
+    <input id="not-sure" type="radio" value="radio3" name="not-sure" />
+    <label for="not-sure">Not sure</label>
+    <br /> <br>
+    <input id="no" type="radio" value="radio4" name="no" />
+    <label for="no">Definitely, No</label>
+    <br />
+    <p>What is your favorite feature of Clarusway?</p>
+
+    <select name="feature" id="feature">
+      <option value="feature1">Select an option</option>
+      <option value="feature2">Effective</option>
+    </select>
+
+    <p class="fourthp" > What would you like to see improved? (Check all that apply)</p>
+    <input id="front" type="checkbox" value="Front-end">
+    <label for="front">Front-end Project</label>
+    <br> <br>
+    <input id="back" type="checkbox" value="Back-end">
+    <label for="back">Back-end Project</label>
+    <br> <br>
+    <input id="data" type="checkbox" value="Data-science">
+    <label for="data">Data-science</label>
+    <br> <br>
+    <input id="add" type="checkbox" value="others">
+    <label for="add">Additional Courses</label>
+    <br>
+    <p>Any Comments or suggestions?</p>
+    <textarea name="comment" id="comment" placeholder="Enter your comment here...Thanxs for your comment" ></textarea>
+
+
+  </body>
+</html>

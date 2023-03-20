@@ -1,0 +1,24 @@
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.firstp{
+    margin-top: 3px;
+}
+
+.fourthp{
+    margin-top: 5px;
+}
+
+.topp{
+    margin-top: -15px;
+}
+
+#name{
+    border-style: solid; 
+    border-color: blueviolet;
+}
