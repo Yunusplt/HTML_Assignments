@@ -1,0 +1,71 @@
+table{
+    width: 600px;
+    height: 200px;
+    
+}
+div{
+    
+    width: 600px;
+}
+tr:nth-child(even){
+    background-color: rgb(206, 203, 203);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(248, 248, 248);
+}
+
+
+tr:first-child, tr:last-child{
+    background-color: rgb(102, 101, 101);
+    color: white;
+}
+
+th:nth-child(2), td:nth-child(2){
+    /* width: 200px; */
+    text-align: left;
+}
+
+th:nth-child(1){
+    text-align: left;
+}
+
+th:nth-child(3),td:nth-child(3) {
+    text-align: center;
+}
+
+th:nth-child(4),td:nth-child(4) {
+    text-align: right;
+}
+
+th:nth-child(5),td:nth-child(5) {
+    text-align: right;
+}
+td:last-child{
+    width: 70px;
+    padding-left: 5px;
+}
+button i{
+    /* margin: 0px 5px; */
+    color: rgb(24, 24, 107);
+    
+}
+
+button{
+    float: right;
+    margin-top: 5px;
+    background-color: rgb(221, 122, 122);
+    border: 1px;
+    padding: 10px;
+    color: white;
+    
+}
+
+.button1{
+    margin-left: 10px;
+    
+}
+
+table i{
+    padding: 0px 5px;
+}
