@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.üst input{
+   
+}
+
+.üst i{
+    position: relative;
+    left: -60px;
+    
+}
+
+.in1{
+    margin: 2rem;
+    height: 30px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    
+}
+
+.in2{
+    margin-left: 2rem;
+    height: 40px;
+    width: 300px;
+    background-color: rgb(75, 73, 73);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+button{
+    background-color: yellow;
+    height: 40px;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 40px;
+    position: relative;
+    left: -75px;
+}

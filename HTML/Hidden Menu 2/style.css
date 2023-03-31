@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding 0;
+}
+
+.div1{
+    background-color: gray;
+    height: 8rem;
+    width: 10rem;
+    
+}
+
+
+.div2{
+    background-color: orange;
+    height: 8rem;
+    width: 2rem;
+}
+
+.div2 >h3{
+    background-color: red;
+    display: inline-block;
+    line-height: 40px;
+    width: 2rem;
+
+
+}
+
+.div3{
+    background-color: orange;
+    height: 8rem;
+    width: 7.8rem;
+    display: none;
+}
+
+
+.div2:hover .div3{
+    margin-top: -2.5rem;
+    display: block;
+}
+
+.div3 h3{
+    text-align: center;
+    background-color: red;
+    display: inline-block;
+    line-height: 40px;
+    width: 7.8rem;
+}
+
+li{
+    list-style-type: none;
+    
+}
+

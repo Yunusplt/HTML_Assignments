@@ -1,0 +1,66 @@
+
+table{
+    width: 98vw;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tr1 a{
+    color: white;
+}
+
+.tr2 a{
+    color: rgb(20, 20, 48);
+}
+
+.tr1{
+    background-color: rgb(78, 78, 78);
+    height: 1vh;
+    position: sticky;
+    top: 0;
+}
+
+.tr2{
+    background-color: rgb(187, 186, 186);
+    height: 10vh;
+}
+
+.tr3{
+    background-color: whitesmoke;
+    height: 170vh;
+}
+
+th:nth-child(1){
+    color: white;
+    text-align: left;
+}
+
+th:nth-child(2) {
+    color: white;
+    text-align: right
+}
+
+.tr2 td:nth-child(1){
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 40px;
+}
+
+.tr2 td:nth-child(2) {
+    text-align: right;
+    width: 49vw;
+}
+
+
+i{
+    color: #77ba12;
+    font-size: 50px;
+    position: fixed;
+    left: 93vw;
+    top: 90vh;
+   
+    
+    
+}

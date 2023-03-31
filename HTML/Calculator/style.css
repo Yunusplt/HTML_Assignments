@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: xx-large;
+    font-weight: 700
+}
+
+.container{
+    background-color: black;
+    color: white;
+    height: 80vh;
+    width: 25vw;
+    margin: 1em auto;
+    border-radius: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 10vh);
+    padding: 23vh 15px 10px 15px;
+    gap: 10px 10px;
+    
+    
+}
+
+.taste{
+    background-color: rgb(87, 86, 86);
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1{margin-top: 10px;
+    margin-bottom: -30px;
+    font-size:40px;
+}
+
+.p2{
+    margin-top: -37px;
+    font-size: 45px;
+}
+
+.taste1{ background-color: rgb(179, 169, 169); color: black;}
+.taste2{ background-color: rgb(179, 169, 169);
+    color: black;
+    display: block;
+    text-align: center;
+    font-weight: 900;  
+    
+}
+.taste3{ background-color: rgb(179, 169, 169); color: black;}
+.taste4{ background-color: yellowgreen;}
+.taste8{background-color: yellowgreen;}
+.taste12{background-color: yellowgreen;}
+.taste16{background-color: yellowgreen;}
+.taste17{
+    grid-area: 5 / 1 / span 1/ span 2;
+    border-radius: 60px;
+    justify-content: left;
+    padding-left: 32px;
+}

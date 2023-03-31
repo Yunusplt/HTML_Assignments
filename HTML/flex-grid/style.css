@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid orange; */
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+    background-color: rgb(78, 78, 78);
+    height: 37rem;
+    width: 27rem;
+    margin: 4rem auto;
+    padding-top: 7px;
+}
+
+nav{
+    background-color: pink;
+    height: 2.5rem;
+    display: flex;
+    margin: 10px 6px;
+    
+}
+
+main{
+    padding-top: 6px;
+}
+
+.logo{
+    width: 25%;
+    background-color: rgb(86, 254, 88);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1px 2px 2px 2px;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.menu{
+    width: 75%;
+    background-color: lightskyblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 1px 2px 2px 2px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.sec1{
+    background-color: #E43716;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    height: 150px;
+    margin: 10px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2{
+    display: flex;
+    height: 100px;
+    margin: 8px 6px;
+    
+
+}
+
+.sec2 div{
+    width: 33%;
+    /* border: 1px solid black; */
+    margin: 2px 1px;
+    background-color: #5AFF57;
+}
+
+.sec3{
+    
+    display: flex;
+    height: 100px;
+    padding: 10px 25px 0px 25px;
+}
+
+.sec3 div:nth-child(odd){
+background-color: #DC8F14;
+width: 25%;
+margin: 10px 10px;
+}
+
+.sec3 div:nth-child(2){
+    background-color: #DC8F14;
+    margin: 10px 10px;
+    width: 50%;
+}
+
+.sec4{
+    display: flex;
+    height: 100px;
+    padding: 0px 10px 10px 10px;
+}
+
+.sec4 div:nth-child(1), .sec4 div:nth-last-child(1){
+    background-color: #00AE01;
+    width: 33%;
+    margin: 10px 10px;
+}
+
+.sec4 div:nth-child(2), .sec4 div:nth-child(3){
+    background-color: #00AE01;
+    width: 15%;
+    margin: 10px 5px;
+}
+
+footer{
+    padding-top: 30px;
+}
