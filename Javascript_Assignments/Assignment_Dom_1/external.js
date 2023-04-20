@@ -1,30 +1,25 @@
 
-document.querySelector("h1").onmouseover=()=>{
-    document.querySelector("h1").style.textAlign="center"
-    document.querySelector("h1").style.color = "red"
-    document.querySelector("h1").textContent = "ORNEKLER"
+const baslik = document.querySelector("h1")
+
+baslik.onmouseover=()=>{
+
+    baslik.style.textAlign ="center"
+    baslik.style.color = "red"
+    baslik.textContent = "ORNEKLER"
 }
+
 
 const resim = document.querySelector("#img1")
 
-
 resim.onmouseover=()=> resim.src = "./img/aslan1.jpeg"
-
 resim.onmouseout=()=>  resim.src = "./img/aslan2.jpeg"
 
-
-
-
-// const but = document.getElementsByTagName("button")
-
-// but.style.width = "100px"
-// but.style.color = "white"
+resim.style.display = "block"
+resim.style.margin = "50px auto"
 
 
 const buton = document.getElementsByClassName("btn")
 
-// buton[0].style.width = "100px"
-// buton[0].style.color = "white"
 console.log(buton.length);              // 3 
 
 for(let i = 0 ; i<buton.length ; i++){
@@ -34,7 +29,6 @@ for(let i = 0 ; i<buton.length ; i++){
     buton[i].style.borderRadius = "5px"
     buton[i].style.backgroundColor = "white"
     buton[i].style.fontSize = "20px"
-
 }
 
 
