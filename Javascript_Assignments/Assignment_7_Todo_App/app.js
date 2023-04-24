@@ -7,11 +7,11 @@ const newLi = document.querySelector("#todo-ul")
 
 
 addButton.onclick=()=>{
-    newLi.innerHTML += `<li class="listem">
+    newLi.innerHTML = `<li class="listem">
     <i class="fa-solid fa-check"></i> 
     <p class="parag">${myTask.value}</p>  
     <i class="fa-solid fa-trash-can">
-    </i></li>`
+    </i></li>` + newLi.innerHTML
     myTask.value=""
     document.querySelector("#toplam").textContent = +(document.querySelector("#toplam").textContent) + 1
     // document.querySelector(".name").style.color="red"
