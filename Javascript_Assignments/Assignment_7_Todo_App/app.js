@@ -14,8 +14,8 @@ addButton.onclick=()=>{
     newLi.innerHTML = `<li>
     <i id="firstEmo" class="fa-solid fa-check"></i> 
     <p class="parag">${myTask.value}</p>  
-    <i id="secondEmo" class="fa-solid fa-trash-can">
-    </i></li>` + newLi.innerHTML
+    <i id="secondEmo" class="fa-solid fa-trash-can"></i>
+    </li>` + newLi.innerHTML
     myList.push(myTask.value)
     myTask.value=""
     document.querySelector("#toplam").textContent = +(document.querySelector("#toplam").textContent) + 1
