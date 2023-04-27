@@ -130,58 +130,58 @@
         </section>
           </div>
 
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6" >
               <div class="rounded-3 p-4 " style="background-color: rgb(238, 238, 238);">
-                <div class="row">
+                <div id="divBag" class="row">
             	    <div class="col-5">
                     <img class="rounded-2" src="./img/photo1.png" alt="Backbag" width="100%" height="225px">
                   </div>
             	    <div class="col-7 h-25 " >
                     <h5>Vintage Backbag</h5>
-                    <span class="text-warning">$25.98</span> <span><s style="font-size: 12px;">$34.99</s></span>
-                    <p class="border border-black border-1 p-1 rounded-2 d-flex  justify-content-evenly mt-4 mb-2" style="width: 9em;"> <button class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);font-weight: bolder; ;">remove</button> 1 <button class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">add</button></p>
-                    <button class="bg-danger text-white border rounded-1 ">Remove</button>
-                    <p class="mt-4">Product Total: $<span>25.98</span></p>
+                     <p class="text-warning">$<span id="priceBag" class="text-warning">25.98</span> <span><s class="text-dark" style="font-size: 12px;">$34.99</s></span></p> 
+                    <p class="border border-black border-1 p-1 rounded-2 d-flex  justify-content-evenly mt-4 mb-2" style="width: 9em;"> <button id="bagMin" class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);font-weight: bolder; ;">remove</button> <span id="bag1">1</span>  <button id="bagAdd" class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">add</button></p>
+                    <button id="bagRem" class="bg-danger text-white border rounded-1 ">Remove</button>
+                    <p  class="mt-4">Product Total: $<span id="sumPriceBag">25.98</span></p>
                   </div>
                 </div>
 
-            	  <div class="row mt-3">
+            	  <div id="divLevi" class="row mt-3">
                     <div class="col-5">
                         <img class="rounded-2" src="./img/photo2.png" alt="shoes" width="100%" height="225px">
                     </div>
                     <div class="col-7">
                         <h5>Levi Shoes</h5>
-                        <span class="text-warning">$45.99</span> <span><s style="font-size: 12px;">$54.99</s></span>
-                        <p class="border border-black border-1 p-1 rounded-2 d-flex  justify-content-evenly mt-4 mb-2" style="width: 9em;"> <button class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">remove</button> 1 <button class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">add</button></p>
-                        <button class="bg-danger text-white border rounded-1 ">Remove</button>
-                        <p class="mt-4">Product Total: $<span>45.99</span></p>
+                        <p class="text-warning">$<span id="priceLevi" class="text-warning">45.99</span> <span class="text-dark"><s style="font-size: 12px;">$54.99</s></span></p> 
+                        <p class="border border-black border-1 p-1 rounded-2 d-flex  justify-content-evenly mt-4 mb-2" style="width: 9em;"> <button id="minLevi" class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">remove</button> <span id="levi1">1</span>  <button id="addLevi" class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">add</button></p>
+                        <button id="remLevi" class="bg-danger text-white border rounded-1 ">Remove</button>
+                        <p class="mt-4">Product Total: $<span id="sumPriceLevi">45.99</span></p>
                     </div>  
                 </div>
 
-            	  <div class="row mt-3">
+            	  <div id="divClock" class="row mt-3">
                     <div class="col-5">
                         <img class="rounded-2" src="./img/photo3.jpg" alt="shoes" width="100%" height="225px">
                     </div>
                     <div class="col-7">
                         <h5>Antique Clock</h5>
-                        <span class="text-warning">$74.99</span> <span><s style="font-size: 12px;">$94.99</s></span>
-                        <p class="border border-black border-1 p-1 rounded-2 d-flex  justify-content-evenly mt-4 mb-2" style="width: 9em;"> <button class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">remove</button> 1 <button class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">add</button></p>
-                        <button class="bg-danger text-white border rounded-1 ">Remove</button>
-                        <p class="mt-4">Product Total: $<span>74.99</span></p>
+                        <p class="text-warning">$<span id="priceClock" class="text-warning">74.99</span> <span class="text-dark"><s style="font-size: 12px;">$94.99</s></span></p>
+                        <p class="border border-black border-1 p-1 rounded-2 d-flex  justify-content-evenly mt-4 mb-2" style="width: 9em;"> <button id="minClock" class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">remove</button><span id="clock1">1</span><button id="addClock" class="rounded-1 border-0 material-symbols-outlined" style="background-color: rgb(224, 224, 224);">add</button></p>
+                        <button id="remClock" class="bg-danger text-white border rounded-1 ">Remove</button>
+                        <p class="mt-4">Product Total: $<span id="sumPriceClock">74.99</span></p>
                     </div>  
                 </div>
                 
             	<div class="border-top  border-2 d-flex justify-content-between mt-5">
-                   <span>Subtotal</span> <span>$149.96</span>  
+                   <span>Subtotal</span> <span>$<span id="subTotal">149.96</span></span>  
               </div>
             	<div class="border-top  border-2 d-flex justify-content-between mt-2">
-                   <span>Tax(%18)</span> <span>$26.95</span>  
+                   <span>Tax(%18)</span> <span>$<span id="tax">26.95</span></span>  
               </div>
             	<div class="border-top  border-2 d-flex justify-content-between mt-2">
-                   <span>Shipping</span> <span>$15.00</span>  
+                   <span>Shipping</span> <span>$<span id="shipping">15.00</span></span>  
               </div>
             	<div class="border-top border-2 mt-2 d-flex justify-content-between">
-                   <span>Total</span> <span>$188.91</span>  
+                   <span>Total</span> <span>$<span id="sum">188.91</span></span>  
               </div>
             </div>
         </div>
@@ -189,5 +189,7 @@
 
       </div>
     </div>
+
+    <script src="checkout.js"></script>
   </body>
 </html>
