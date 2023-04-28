@@ -9,22 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-    <style>
-        .container{
-            position: relative;
-            margin-top: 2vh;
-        }
-        body{
-            font-weight: 500;
-        }
-    </style>
     
 </head>
 <body>
     
-<h1 class="text-center mt-3">Checkout</h1>
+<h1 class="text-center mt-3 mb-4">Checkout</h1>
 
-<div class="container d-flex justify-content-center w-75">       
+<div class="container d-flex justify-content-center w-75" style="font-weight: 500;">       
     <div class="card p-3 border-0 rounded-4 text-center text-md-start w-100" style="max-width: 540px; background-color: #EFEFE7;" >
         <div class="row mb-3  no-gutters" id="divBag">
             <div class="col-md-4">
@@ -36,7 +27,7 @@
                 <p class="card-text text-warning">$<span id="priceBag">25.98 </span><small class="text-decoration-line-through text-black">$34.99</small></p>
                 <p class="card-text border border-1 border-dark-subtle d-inline-flex justify-content-evenly rounded-2 mb-2" style="width: 180px; height: 35px;"><button class="m-1 border border-0 rounded-2 bg-success-subtle"><i id="minBag" class="fa-solid fa-minus"></i></button> <span class="m-1 bagAmount" id="bag1">1</span>  <button class="m-1 border border-0 rounded-2 bg-success-subtle"><i id="addBag" class="fa-solid fa-plus"></i></button></p>
                 <p><button class="card-text mt-0 bg-danger text-white border border-1 rounded-1 " id="bagRem">Remove</button></p> 
-                <p class="card-text mt-3">Product Total: $<span id="sumPriceBag">25.98</span></p> 
+                <p class="card-text mt-3 ">Product Total: $<span id="sumPriceBag">25.98</span></p> 
             </div>
         </div>
         </div>
