@@ -119,6 +119,8 @@ let shipping = document.querySelector("#shipping")
 let total = document.querySelector("#total")
 
 function altKisim() {
+
+
     subTotal.textContent =  (+topFiyatBag.textContent + +topFiyatClock.textContent + +topFiyatLevi.textContent).toFixed(2)
     tax.textContent = (+subTotal.textContent * 0.18).toFixed(2)
 
@@ -127,6 +129,11 @@ function altKisim() {
     total.textContent = (+subTotal.textContent + +tax.textContent + +shipping.textContent).toFixed(2)
 
     console.log(shipping.textContent);
+    
+    if (subTotal.textContent == 0) {
+        total.textContent = (0).toFixed(2)
+        shipping.textContent = (0).toFixed(2)
+    }
 }
 
 altKisim()
