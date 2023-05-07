@@ -80,7 +80,7 @@ const getWeatherDataFromApi = async () => {
         `
       <li class="city list-unstyled" id=${name}>
         <button class="single-clear-btn btn btn-success">X</button>
-              <div class="card" style="width: 14rem" >
+              <div class="card" style="width: 15rem" >
                 <img src="./img/${weather[0].icon}.png" class="card-img-top" alt="..." />
                 <div class="card-body">
                   <h2>${name}<sup class="ms-2 fs-5 ps-1 pe-1" style="background-color: orange;">${sys.country}</sup></h2>
